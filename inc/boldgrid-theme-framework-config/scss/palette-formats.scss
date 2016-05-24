@@ -1,0 +1,301 @@
+/*------------------------------------------------------------------------
+# Variables
+------------------------------------------------------------------------*/
+$rgba_5 : rgba($palette-primary_5, 1);
+
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+	background: $palette-primary_5;
+
+	/*-----------------------------------------------
+	## 1
+	-----------------------------------------------*/
+	.mod-alpha hr {
+		background: $palette-primary_1;
+	}
+	.widget-area {
+	    border: 1px solid $text-contrast-palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## 2
+	-----------------------------------------------*/
+	.mod-icon-box span,
+	.link-secondary,
+	.link-secondary:hover,
+	.link-secondary:focus {
+	    color: $palette-primary_2;
+	}
+	.button-secondary,
+	.button-primary:hover,
+	.button-primary:active,
+	input[type="submit"],
+	#commentsubmit,
+	.comment-reply-link.button-primary {
+		background: $palette-primary_2;
+		border: 1px solid $palette-primary_3;
+		color: $text-contrast-palette-primary_2;
+	}
+	.form-submit .submit:hover,
+	.form-submit .submit:focus,
+	.mod-beta-1 {
+		background: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
+	}
+
+	/* sm */
+	@media (min-width: 768px) {
+		/* Dropdown Child Default */
+		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	    	color: $text-contrast-palette-primary_2;
+		}
+	}
+
+	/*-----------------------------------------------
+	## 3
+	-----------------------------------------------*/
+	h1, 
+	h2, 
+	h3, 
+	h4, 
+	h5, 
+	h6,
+	a,
+	.mod-alpha h2,
+	.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+	.showcoupon,
+	.payment_method_paypal label a,
+	.woocommerce-message a,
+	.showcoupon:hover,
+	.showcoupon:focus,
+	.payment_method_paypal label a:hover,
+	.payment_method_paypal label a:focus,
+	.woocommerce-message a:hover,
+	.woocommerce-message a:focus,
+	#payment label,
+	#payment .payment_box p,
+	caption,
+	.dropdown-menu > li > a,
+	.mod-alpha-1 .fa,
+	.link-primary,
+	.link-primary:hover,
+	.link-primary:focus,
+	a:hover,
+	a:focus,
+	.mod-alpha .fa {
+		color: $palette-primary_3;
+	}
+	.entry-title,
+	.page-title {
+		border-bottom: 1px solid $palette-primary_3;
+	}
+	.title-main {
+		border-bottom: 1px solid $palette-primary_3;
+	    border-top: 1px solid $palette-primary_3;
+		color: $palette-primary_3;
+	}
+	hr {
+		background: $palette-primary_3;
+	}
+	.mod-icon-circle i {
+		border: 2px solid $palette-primary_3;
+	}
+	.mod-blockquote,
+	blockquote {
+		border-left: 7px solid $palette-primary_3;
+	}
+	.text-widget {
+		color: $text-contrast-palette-primary_3;
+	}
+	.site-footer,
+	.background-beta,
+	.widget .nav > li > a:hover,
+	.widget .nav > li > a:focus,
+	#wp-calendar tr td#today,
+	.site-footer .widget {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+	}
+
+	/*-----------------------------------------------
+	## 4
+	-----------------------------------------------*/
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	#secondary-menu a[href]:hover,
+	#tertiary-menu a[href]:hover,
+	#menu-social li a:hover,
+	#menu-social li a:focus,
+	.gridblock .heading-alt,
+	#footer-widget-area .widget-title,
+	#footer-widget-area caption,
+	.footer-center-items > li > a:hover,
+	.footer-center-items > li > a:focus {
+		color: $palette-primary_4;
+	}
+
+	/* Dropdown Child */
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, 
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.background-gamma,
+	.mod-gamma h2,
+	.mod-beta h2,
+	.mod-gamma {
+	    background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+	&.home .entry-footer,
+	.navbar-default .navbar-toggle .icon-bar,
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+	    background-color: $palette-primary_4;
+	}
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus,
+	#secondary-menu .current_page_item a,
+	#tertiary-menu .current_page_item a,
+	#menu-social-items .current_page_item a {
+		background: none;
+		color: $palette-primary_4;
+	}
+
+	/*-----------------------------------------------
+	## 5
+	-----------------------------------------------*/
+	.site-content,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus,
+	.mod-icon-box,
+	.disabled-footer .site-footer,
+	.widget {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.button-primary,
+	.button-secondary:hover,
+	.button-secondary:focus,
+	input[type="submit"]:hover,
+	input[type="submit"]:focus,
+	#commentsubmit:hover,
+	#commentsubmit:focus,
+	.comment-reply-link.button-primary:hover,
+	.comment-reply-link.button-primary:active,
+	.form-submit .submit {
+		background: $palette-primary_5;
+		border: 1px solid $palette-primary_3;
+		color: $text-contrast-palette-primary_5;
+	}
+	.mod-alpha p,
+	.background-alpha,
+	.dropdown-menu {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.site-title a,
+	.site-description,
+	.site-branding .fa-anchor,
+	.site-header,
+	.call-to-action h2,
+	.call-to-action h3,
+	.navbar-default .navbar-nav > li > a,
+	#secondary-menu a,
+	#tertiary-menu a,
+	#menu-social a,
+	#menu-social li a,
+	.background-delta,
+	.mod-delta,
+	.mod-delta h2,
+	.mod-epsilon h2,
+	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
+	.site-footer a  {
+		color: $palette-primary_5;
+	}
+	.navbar-default .navbar-nav > .open > a, 
+	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > .open > a:focus,
+	.navbar-default .navbar-nav > .current-menu-parent > a,
+	.mod-divider a,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.navbar-default .navbar-toggle {
+	    border-color: $palette-primary_5;
+	}
+	.home input.form-control,
+	.home textarea.form-control,
+	.home select.form-control {
+		background: $palette-primary_5;
+		border: 2px solid $text-contrast-palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	textarea#ninja_forms_field_4 {
+		background: none;
+		color: $text-contrast-palette-primary_5;
+	}
+	.form-submit .submit {
+		background: $palette-primary_5;
+		color: $palette-primary_4;
+	}
+	.woocommerce table.shop_table,
+	.shop_table td,
+	.shop_table thead tr th,
+	.shop_table tbody th, 
+	.shop_table tfoot td, 
+	.shop_table tfoot th  {
+		border: 1px solid $palette-primary_5;
+	}
+	.mod-delta-2 {
+		background: $rgba_5;
+		color: $text-contrast-palette-primary_5;
+	}
+
+	/*-----------------------------------------------
+	## Et Cetera
+	-----------------------------------------------*/
+	.mod-gamma-2 {
+		background: rgba(255,255,255,.90);
+		color: #333;
+	}
+	h5.media-heading,
+	.comment-meta a,
+	.comment-meta a:hover,
+	.comment-meta a:focus {
+		color: #333 !important;
+	}
+
+	/* WooCommerce */
+	.woocommerce #respond input#submit,
+	.woocommerce a.button,
+	.woocommerce button.button,
+	.woocommerce input.button,
+	.woocommerce p.buttons a.button {
+	    background-color: #a46497;
+	    color: #fff;
+	}
+	.woocommerce p.buttons a.button:hover {
+		background-color: #dad8da;
+	    color: #515151;
+	}
+
+}
+	.palette-primary.home .entry-footer a,
+	.palette-primary.home .entry-footer a:hover {
+		background: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
+	.palette-primary.page-template-default .entry-footer a,
+	.palette-primary.page-template-default .entry-footer a:hover,
+	.palette-primary.mce-content-body {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.palette-primary.home.mce-content-body {
+		background: none;
+	}

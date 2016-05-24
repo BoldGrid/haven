@@ -1,0 +1,883 @@
+/*
+Theme Name: Haven
+Author: The BoldGrid Team
+Theme URI: http://www.boldgrid.com/haven
+Author URI: http://www.boldgrid.com/the-team
+Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
+Version: 1.11
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: boldgrid-haven
+Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-43
+*/
+
+/*------------------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+--------------------------------------------------------------------------
+# Base Styles
+	## Background
+	## Positioning
+	## Typography
+	## Titles
+	## Links
+	## Buttons
+	## Et Cetera
+# Header
+# Navigation
+	## Main Menu
+	## Other Menus
+	## Social Menus
+# GridBLocks
+	## Positioning
+	## Alternates
+# Modules
+	## Universal
+	## Global
+	## Alpha
+	## Beta
+	## Gamma
+# Pages
+# Posts
+# Plugins
+	## WooCommerce
+# Footer
+------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------
+# Base Styles
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Background
+-----------------------------------------------*/
+body,
+.custom-background {
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.home .site-content {
+    clear: both;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.archive .site-content,
+.single .site-content {
+	padding-top: 50px;
+}
+.site-content {
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+
+/*-----------------------------------------------
+## Positioning
+-----------------------------------------------*/
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	margin: 1em 0;
+}
+p {
+	margin-bottom: 15px;
+}
+.hentry {
+    margin: 0;
+}
+/*-----
+------------------------------------------
+## Typography
+-----------------------------------------------*/
+body {
+  	font-weight: 300;
+}
+h2 {
+	font-weight: 400;
+}
+h3 {
+	font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+.entry-title,
+.page-title {
+    text-align: center;
+}
+.title-main {
+  	font-weight: 700;
+  	text-align: center;
+}
+.button-primary {
+	font-family: "Roboto",sans-serif; /* different font from body text */
+    font-size: 14px; /* different font size from body text */
+}
+.link-primary,
+.link-secondary {
+	text-decoration: underline;
+}
+.link-primary:hover,
+.link-primary:focus,
+.link-secondary:hover,
+.link-secondary:focus {
+	text-decoration: none;
+}
+.button-primary,
+input[type="submit"] {
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: none;
+}
+.button-primary:hover,
+.button-primary:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	text-decoration: none;
+}
+.button-secondary,
+#commentsubmit,
+.comment-reply-link.button-primary {
+	font-size: 14px; /* different font size from body text */
+	font-weight: 500;
+	text-transform: none;
+	text-decoration: none;
+}
+.button-secondary:hover,
+.button-secondary:active,
+#commentsubmit:hover,
+#commentsubmit:active,
+.comment-reply-link.button-primary:hover,
+.comment-reply-link.button-primary:active {
+	text-decoration: none;
+}
+h1.site-title {
+	font-weight: normal;
+}
+.site-description {
+    font-weight: 300;
+}
+.site-branding {
+	text-align: center;
+}
+.call-to-action h2 {
+    font-weight: 400;
+}
+.call-to-action h3 {
+    font-weight: 300;
+}
+#secondary-menu a,
+#tertiary-menu a,
+#menu-social a {
+    text-transform: uppercase;
+}
+#secondary-menu {
+    text-align: center;
+}
+#tertiary-menu {
+    text-align: left;
+}
+#secondary-menu a[href]:hover,
+#tertiary-menu a[href]:hover {
+    text-decoration: none;
+}
+.menu-social {
+	text-align: center;
+}
+#menu-social li a {
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
+#menu-social li a:hover,
+#menu-social li a:focus {
+	text-decoration: none;
+}
+.site-title,
+.site-description {
+	text-align: center;
+}
+#site-navigation {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+#footer-center-menu a:hover,
+#footer-center-menu .current_page_item a {
+	text-decoration: underline;
+}
+#footer-center-menu a {
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav,
+.navbar-default .navbar-nav .open .dropdown-menu {
+	text-align: center;
+}
+.gridblock .heading-alt {
+	font-weight: 400;
+}
+.mod-divider p {
+	text-align: center;
+}
+.mod-icon-box {
+    text-align: center;
+}
+.mod-blockquote p {
+	line-height: 28px;
+}
+.mod-alpha {
+	text-align: center;
+}
+.mod-alpha-1 .fa {
+	font-size: 36px;
+}
+.mod-beta {
+	text-align: center;
+}
+.mod-gamma {
+	text-align: center;
+}
+.mod-gamma-2 {
+	font-weight: 500;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    text-align: center;
+}
+/* # Posts */
+#wp-calendar tr td#today {
+	text-decoration: underline;
+}
+
+/* # Plugins */
+/* ## WooCommerce */
+.woocommerce p.buttons a.button:hover {
+    text-decoration: none;
+}
+.showcoupon,
+.payment_method_paypal label a,
+.woocommerce-message a {
+	text-decoration: underline;
+}
+.showcoupon:hover,
+.showcoupon:focus,
+.payment_method_paypal label a:hover,
+.payment_method_paypal label a:focus,
+.woocommerce-message a:hover,
+.woocommerce-message a:focus {
+	text-decoration: none;
+}
+
+/* # Footer */
+.site-footer p,
+.site-info,
+.attribution {
+	text-align: center;
+}
+.site-footer a {
+	text-decoration: underline;
+}
+.site-footer a:hover,
+.site-footer a:focus {
+	text-decoration: none;
+}
+.entry-footer a {
+	text-decoration: underline;
+}
+.entry-footer a:hover {
+	text-decoration: none;
+}
+input.form-control,
+textarea.form-control,
+select.form-control {
+	text-transform: none;
+}
+.form-control {
+	text-transform: uppercase;
+}
+
+/* # Base Styles */
+/* ## Positioning */
+.xs-center,
+.mod-img,
+.mod-img-circle,
+.p-button-primary,
+.p-button-secondary {
+	text-align: center;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.navbar-default .navbar-nav,
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		text-align: left;
+	}
+	.menu-social {
+	    text-align: right;
+	}
+}
+
+/* md */
+@media (min-width: 992px) {
+	.xs-center,
+	.mod-img,
+	.mod-img-circle,
+	.p-button-primary,
+	.p-button-secondary {
+		text-align: left;
+	}
+	.title-main {
+		text-align: right;
+	}
+}
+
+/*-----------------------------------------------
+## Titles
+-----------------------------------------------*/
+.page-template-page_home .entry-title {
+	display: none;
+}
+.entry-title,
+.page-title {
+    margin-top: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.title-main {
+  	margin: 0;
+    padding: 20px 0;
+}
+
+/*-----------------------------------------------
+## Links
+-----------------------------------------------*/
+
+/*-----------------------------------------------
+## Buttons
+-----------------------------------------------*/
+.button-primary,
+input[type="submit"] {
+	border-radius: 0;
+	display: inline-block;
+	padding: 8px 35px;
+}
+.button-secondary,
+#commentsubmit,
+.comment-reply-link.button-primary {
+	display: inline-block;
+	padding: 8px 35px;
+}
+.form-submit .submit {
+	margin-bottom: 10px;
+}
+
+/* Positioning */
+.p-button-primary,
+.p-button-secondary {
+	margin: 25px 0;
+}
+
+/* Block vs. Inline */
+.button-primary,
+.button-secondary {
+	display: block;
+    margin-top: 15px;
+}
+.call-to-action .p-button-primary {
+	margin-top: 0;
+}
+
+/* sm */
+@media (min-width: 500px) {
+	.button-primary,
+	.button-secondary,
+	.call-to-action .p-button-primary {
+		display: inline;
+    	margin-top: 0;
+	}
+	.gridblock .p-button-secondary {
+		margin: 25px 0;
+	}
+}
+
+/*-----------------------------------------------
+## Et Cetera
+-----------------------------------------------*/
+hr {
+	border: 0;
+	height: 1px;
+}
+
+/*------------------------------------------------------------------------
+# Header
+------------------------------------------------------------------------*/
+.site-title {
+	margin-bottom: 0;
+}
+.site-description {
+    margin-top: 0;
+}
+.site-branding {
+	margin-top: 75px;
+}
+.site-header {
+	padding-top: 15px;
+}
+.home .site-header {
+	height: 850px;
+}
+
+/* Call to Action */
+.call-to-action h2 {
+    margin-bottom: 0;
+}
+.call-to-action h3 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.call-to-action {
+    margin-bottom: 75px;
+}
+.boldgrid-widget {
+    background: none !important;
+}
+
+/*------------------------------------------------------------------------
+# Navigation
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Main Menu
+-----------------------------------------------*/
+/* Nav Reset */
+.navbar {
+	background-color: none;
+	border: none;
+	min-height: 0;
+	/* Border Radius */
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+    border-radius: 0;
+}
+.navbar-default {
+	background: none;
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav {
+	margin-left: -15px;
+}
+
+/* Links */
+.navbar-default .navbar-nav > li > a {
+    padding: 10px;
+}
+.navbar-default .navbar-nav > li:first-child > a {
+	margin-left: 0;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background: none;
+}
+#secondary-menu .current_page_item a,
+#tertiary-menu .current_page_item a {
+	background: none;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.navbar-default {
+		float: right;
+	}
+}
+
+/*-----------------------------------------------
+## Other Menus
+-----------------------------------------------*/
+#secondary-menu a,
+#tertiary-menu a,
+#menu-social a {
+	padding: 0 5px;
+}
+#secondary-menu {
+    background: none;
+}
+#tertiary-menu {
+	background: none;
+}
+.boldgrid-framework-menu li::after {
+	content: none;
+}
+.footer-center-items li::after, .boldgrid-framework-menu li::after {
+    content: "";
+}
+
+/*-----------------------------------------------
+## Social Menus
+-----------------------------------------------*/
+.menu-social {
+	padding: 0;
+}
+.menu-social ul {
+	padding-left: 0;
+}
+.menu-social li {
+	display: inline;
+	list-style: none;
+	padding-right: 10px;
+}
+#menu-social ul {
+	padding-left: 0px;
+}
+#menu-social ul li {
+    position: relative;
+    display:  inline-block;
+}
+#menu-social li a {
+	display: inline-block;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.menu-social {
+	    padding-right: 15px;
+	}
+}
+
+/*------------------------------------------------------------------------
+# GridBlocks
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Positioning
+-----------------------------------------------*/
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
+.gridblock h6,
+.gridblock ol,
+.gridblock ul,
+.gridblock li,
+.gridblock p {
+	margin: 10px 0;
+}
+.entry-content > .container-fluid {
+	padding: 100px 0;
+}
+
+/*-----------------------------------------------
+## Alternates
+-----------------------------------------------*/
+
+/*------------------------------------------------------------------------
+# Modules
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Universal
+-----------------------------------------------*/
+.mod-reset {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.mod-space,
+.mod-space-2x,
+.mod-space-3x,
+.mod-space-4x,
+.mod-space-5x {
+	background: none;
+}
+.mod-space {
+	height: 15px;
+}
+.mod-space-2x {
+	height: 30px;
+}
+.mod-space-3x {
+	height: 45px;
+}
+.mod-space-4x {
+	height: 60px;
+}
+.mod-space-5x {
+	height: 75px;
+}
+
+/* Images */
+.mod-img,
+.mod-img-circle,
+.image-gallery img,
+.video-gallery img,
+.slideshow-gallery img {
+	margin-bottom: 15px;
+}
+.mod-img-circle img {
+	border-radius: 50%;
+}
+
+/*-----------------------------------------------
+## Global
+-----------------------------------------------*/
+/* Divider */
+.mod-divider {
+	margin: 4em 0 0;
+}
+.mod-divider p {
+	margin-top: -45px;
+}
+.mod-icon-circle i {
+    border-radius: 50%;
+    padding: 15px;
+}
+.mod-icon-circle .fa-lightbulb-o {
+	padding: 15px 20px;
+}
+.mod-icon-box {
+    border-radius: 100px;
+    height: 125px;
+    margin: 0 auto -60px;
+    overflow: hidden;
+    padding: 15px 0 0 15px;
+    position: relative;
+    top: -75px;
+    width: 125px;
+}
+
+/* Blockquote */
+.mod-blockquote {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.mod-blockquote p {
+	padding-left: 15px;
+}
+
+/*-----------------------------------------------
+## Alpha
+-----------------------------------------------*/
+.mod-alpha hr {
+	border: 0;
+	height: 5px;
+	width: 50%;
+}
+.mod-alpha h2 {
+	margin: 0;
+}
+
+/* Img Radius */
+.mod-alpha-2 img {
+	margin-bottom: 15px;
+	/* Border Radius */
+	-webkit-border-top-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.mod-alpha-3 img {
+	margin-bottom: 15px;
+	/* Border Radius */
+	-webkit-border-top-left-radius: 30px;
+	-webkit-border-bottom-right-radius: 30px;
+	-moz-border-radius-topleft: 30px;
+	-moz-border-radius-bottomright: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+/*-----------------------------------------------
+## Beta
+-----------------------------------------------*/
+.mod-beta-1 {
+	margin: 125px 0 75px;
+    padding: 15px;
+	/* Border Radius */
+	-webkit-border-top-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.mod-beta h2 {
+	margin-top: 10px;
+}
+
+/*-----------------------------------------------
+## Gamma
+-----------------------------------------------*/
+.background-gamma {
+	/* background: rgba(0, 0, 0, 0) url("images/background-delta.jpg") no-repeat scroll center center / cover; */
+    /* min-height: 650px; */
+}
+.mod-gamma h2 {
+	margin: 0;
+}
+.mod-gamma-1 {
+	margin: 10px 0;
+}
+.mod-gamma-1 img {
+	/* Border Radius */
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	border-bottom-left-radius: 30px;
+}
+.mod-gamma-2 {
+	margin: 10px 0;
+	padding: 20px;
+	/* Border Radius */
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-right-radius: 30px;
+}
+
+/*------------------------------------------------------------------------
+# Pages
+------------------------------------------------------------------------*/
+/* Forms */
+#ninja_forms_field_1_div_wrap,
+#ninja_forms_field_2_div_wrap,
+#ninja_forms_field_3_div_wrap {
+	width: 50%;
+	float: left;
+	padding: 5px 15px;
+}
+#ninja_forms_field_39_div_wrap,
+#ninja_forms_field_4_div_wrap,
+.home .submit-wrap {
+	width: 50%;
+	float: right;
+	padding: 5px 15px;
+}
+.submit-wrap {
+	float: none;
+}
+textarea#ninja_forms_field_4 {
+	height: 98px;
+}
+input#ninja_forms_field {
+	height: 50px;
+}
+input#ninja_forms_field_5 {
+	float: left;
+}
+.home input.form-control,
+.home textarea.form-control,
+.home select.form-control {
+	background: none;
+}
+.form-control {
+	border-radius: 0;
+}
+.panel-footer {
+	padding: 20px 15px;
+}
+body.mce-content-body {
+	background: none;
+}
+
+/*------------------------------------------------------------------------
+# Posts
+------------------------------------------------------------------------*/
+.widget-area {
+	margin-top: 25px;
+    padding: 25px;
+    list-style:none;
+}
+.widget {
+	clear: both;
+}
+.page-header {
+    border-bottom: none;
+    margin: 40px 0 0;
+    padding-bottom: 9px;
+}
+#wp-calendar tr {
+    background: none;
+}
+
+/* Comments */
+.comment-form-comment label {
+    float: left;
+    padding-right: 15px;
+}
+
+/* Buttons */
+.form-submit .submit {
+	margin-bottom: 10px;
+}
+
+/*------------------------------------------------------------------------
+# Plugins
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## WooCommerce
+-----------------------------------------------*/
+.woocommerce .page-title {
+	margin: 0;
+}
+.woocommerce p.buttons a.button:hover {
+    background-image: none;
+}
+.woocommerce .product {
+	margin: 2em 0 0;
+}
+.woocommerce div.product .woocommerce-tabs .panel {
+	background: none;
+}
+
+/* Search Form */
+.form-control {
+	display: inline-block;
+}
+
+/*------------------------------------------------------------------------
+# Footer
+------------------------------------------------------------------------*/
+.site-footer {
+	padding: 25px 0;
+}
+.site-info {
+	margin-bottom: -10px;
+}
+.footer-center-items {
+	padding-left: 0;
+}
+.footer-center-items li a {
+	padding: 5px;
+}
+.attribution {
+	padding-bottom: 30px;
+}
+.entry-footer {
+    padding-bottom: 15px;
+}
+
+/* Disabled Footer */
+.disabled-footer .site-footer {
+	height: auto;
+	padding: 15px 0;
+}
+.disabled-footer .content-area {
+	margin-bottom: 0;
+}
+
+/** Sticky Footer **/
+html, body, .site, .site-content {
+	height: 100%;
+}
+#boldgrid-sticky-wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
