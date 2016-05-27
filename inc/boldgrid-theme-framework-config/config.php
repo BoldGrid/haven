@@ -144,11 +144,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Icons.
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 
-	// Menu Locations.
-	$boldgrid_framework_configs['menu']['locations']['secondary'] = "Above Social Media";
-	$boldgrid_framework_configs['menu']['locations']['tertiary'] = "Above Site Title";
-	$boldgrid_framework_configs['menu']['locations']['social'] = "Upper Right";
-
 	/**
 	 * Widgets
 	 */
