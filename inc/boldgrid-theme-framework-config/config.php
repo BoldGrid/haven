@@ -100,14 +100,16 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Override Options per Subcategory
 	switch ( $subcategory_id ) {
-		case 18: //<-- Property Management
+		// Property Management.
+		case 18:
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][3]['default'] = true;
 			break;
-		case 22: //<-- Marketing
+		// Marketing.
+		case 22:
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][1]['default'] = true;
 			break;
 
-		// Default Behavior
+		// Default Behavior.
 		default:
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][0]['default'] = true;
 			break;
