@@ -53,15 +53,15 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 -----------------------------------------------*/
 body,
 .custom-background {
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .home .site-content {
-    clear: both;
-    padding-bottom: 0;
-    padding-top: 0;
+	clear: both;
+	padding-bottom: 0;
+	padding-top: 0;
 }
 .archive .site-content,
 .single .site-content {
@@ -87,14 +87,14 @@ p {
 	margin-bottom: 15px;
 }
 .hentry {
-    margin: 0;
+	margin: 0;
 }
 /*-----
 ------------------------------------------
 ## Typography
 -----------------------------------------------*/
 body {
-  	font-weight: 300;
+	font-weight: 300;
 }
 h2 {
 	font-weight: 400;
@@ -103,19 +103,19 @@ h3 {
 	font-weight: 400;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 .entry-title,
 .page-title {
-    text-align: center;
+	text-align: center;
 }
 .title-main {
-  	font-weight: 700;
-  	text-align: center;
+	font-weight: 700;
+	text-align: center;
 }
 .button-primary {
 	font-family: "Roboto",sans-serif; /* different font from body text */
-    font-size: 14px; /* different font size from body text */
+	font-size: 14px; /* different font size from body text */
 }
 .link-primary,
 .link-secondary {
@@ -159,31 +159,31 @@ h1.site-title {
 	font-weight: normal;
 }
 .site-description {
-    font-weight: 300;
+	font-weight: 300;
 }
 .site-branding {
 	text-align: center;
 }
 .call-to-action h2 {
-    font-weight: 400;
+	font-weight: 400;
 }
 .call-to-action h3 {
-    font-weight: 300;
+	font-weight: 300;
 }
 #secondary-menu a,
 #tertiary-menu a,
 #menu-social a {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 #secondary-menu {
-    text-align: center;
+	text-align: center;
 }
 #tertiary-menu {
-    text-align: left;
+	text-align: left;
 }
 #secondary-menu a[href]:hover,
 #tertiary-menu a[href]:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 .menu-social {
 	text-align: center;
@@ -223,7 +223,7 @@ h1.site-title {
 	text-align: center;
 }
 .mod-icon-box {
-    text-align: center;
+	text-align: center;
 }
 .mod-blockquote p {
 	line-height: 28px;
@@ -249,7 +249,7 @@ h1.site-title {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-    text-align: center;
+	text-align: center;
 }
 /* # Posts */
 #wp-calendar tr td#today {
@@ -259,7 +259,7 @@ h1.site-title {
 /* # Plugins */
 /* ## WooCommerce */
 .woocommerce p.buttons a.button:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 .showcoupon,
 .payment_method_paypal label a,
@@ -320,7 +320,7 @@ select.form-control {
 		text-align: left;
 	}
 	.menu-social {
-	    text-align: right;
+		text-align: right;
 	}
 }
 
@@ -346,13 +346,13 @@ select.form-control {
 }
 .entry-title,
 .page-title {
-    margin-top: 0;
-    padding-bottom: 25px;
-    padding-top: 25px;
+	margin-top: 0;
+	padding-bottom: 25px;
+	padding-top: 25px;
 }
 .title-main {
-  	margin: 0;
-    padding: 20px 0;
+	margin: 0;
+	padding: 20px 0;
 }
 
 /*-----------------------------------------------
@@ -388,7 +388,7 @@ input[type="submit"] {
 .button-primary,
 .button-secondary {
 	display: block;
-    margin-top: 15px;
+	margin-top: 15px;
 }
 .call-to-action .p-button-primary {
 	margin-top: 0;
@@ -400,7 +400,7 @@ input[type="submit"] {
 	.button-secondary,
 	.call-to-action .p-button-primary {
 		display: inline;
-    	margin-top: 0;
+		margin-top: 0;
 	}
 	.gridblock .p-button-secondary {
 		margin: 25px 0;
@@ -422,7 +422,7 @@ hr {
 	margin-bottom: 0;
 }
 .site-description {
-    margin-top: 0;
+	margin-top: 0;
 }
 .site-branding {
 	margin-top: 75px;
@@ -436,17 +436,17 @@ hr {
 
 /* Call to Action */
 .call-to-action h2 {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 .call-to-action h3 {
-    margin-bottom: 30px;
-    margin-top: 10px;
+	margin-bottom: 30px;
+	margin-top: 10px;
 }
 .call-to-action {
-    margin-bottom: 75px;
+	margin-bottom: 75px;
 }
 .boldgrid-widget {
-    background: none !important;
+	background: none !important;
 }
 
 /*------------------------------------------------------------------------
@@ -464,7 +464,7 @@ hr {
 	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
-    border-radius: 0;
+	border-radius: 0;
 }
 .navbar-default {
 	background: none;
@@ -476,7 +476,7 @@ hr {
 
 /* Links */
 .navbar-default .navbar-nav > li > a {
-    padding: 10px;
+	padding: 10px;
 }
 .navbar-default .navbar-nav > li:first-child > a {
 	margin-left: 0;
@@ -507,7 +507,7 @@ hr {
 	padding: 0 5px;
 }
 #secondary-menu {
-    background: none;
+	background: none;
 }
 #tertiary-menu {
 	background: none;
@@ -516,7 +516,7 @@ hr {
 	content: none;
 }
 .footer-center-items li::after, .boldgrid-framework-menu li::after {
-    content: "";
+	content: "";
 }
 
 /*-----------------------------------------------
@@ -537,8 +537,8 @@ hr {
 	padding-left: 0px;
 }
 #menu-social ul li {
-    position: relative;
-    display:  inline-block;
+	position: relative;
+	display:  inline-block;
 }
 #menu-social li a {
 	display: inline-block;
@@ -547,7 +547,7 @@ hr {
 /* sm */
 @media (min-width: 768px) {
 	.menu-social {
-	    padding-right: 15px;
+		padding-right: 15px;
 	}
 }
 
@@ -635,21 +635,21 @@ hr {
 	margin-top: -45px;
 }
 .mod-icon-circle i {
-    border-radius: 50%;
-    padding: 15px;
+	border-radius: 50%;
+	padding: 15px;
 }
 .mod-icon-circle .fa-lightbulb-o {
 	padding: 15px 20px;
 }
 .mod-icon-box {
-    border-radius: 100px;
-    height: 125px;
-    margin: 0 auto -60px;
-    overflow: hidden;
-    padding: 15px 0 0 15px;
-    position: relative;
-    top: -75px;
-    width: 125px;
+	border-radius: 100px;
+	height: 125px;
+	margin: 0 auto -60px;
+	overflow: hidden;
+	padding: 15px 0 0 15px;
+	position: relative;
+	top: -75px;
+	width: 125px;
 }
 
 /* Blockquote */
@@ -700,7 +700,7 @@ hr {
 -----------------------------------------------*/
 .mod-beta-1 {
 	margin: 125px 0 75px;
-    padding: 15px;
+	padding: 15px;
 	/* Border Radius */
 	-webkit-border-top-right-radius: 30px;
 	-webkit-border-bottom-left-radius: 30px;
@@ -716,10 +716,6 @@ hr {
 /*-----------------------------------------------
 ## Gamma
 -----------------------------------------------*/
-.background-gamma {
-	/* background: rgba(0, 0, 0, 0) url("images/background-delta.jpg") no-repeat scroll center center / cover; */
-    /* min-height: 650px; */
-}
 .mod-gamma h2 {
 	margin: 0;
 }
@@ -791,25 +787,25 @@ body.mce-content-body {
 ------------------------------------------------------------------------*/
 .widget-area {
 	margin-top: 25px;
-    padding: 25px;
-    list-style:none;
+	padding: 25px;
+	list-style:none;
 }
 .widget {
 	clear: both;
 }
 .page-header {
-    border-bottom: none;
-    margin: 40px 0 0;
-    padding-bottom: 9px;
+	border-bottom: none;
+	margin: 40px 0 0;
+	padding-bottom: 9px;
 }
 #wp-calendar tr {
-    background: none;
+	background: none;
 }
 
 /* Comments */
 .comment-form-comment label {
-    float: left;
-    padding-right: 15px;
+	float: left;
+	padding-right: 15px;
 }
 
 /* Buttons */
@@ -828,7 +824,7 @@ body.mce-content-body {
 	margin: 0;
 }
 .woocommerce p.buttons a.button:hover {
-    background-image: none;
+	background-image: none;
 }
 .woocommerce .product {
 	margin: 2em 0 0;
@@ -861,7 +857,7 @@ body.mce-content-body {
 	padding-bottom: 30px;
 }
 .entry-footer {
-    padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 /* Disabled Footer */
