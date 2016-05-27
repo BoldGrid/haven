@@ -56,11 +56,11 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	/*-----------------------------------------------
 	## 3
 	-----------------------------------------------*/
-	h1, 
-	h2, 
-	h3, 
-	h4, 
-	h5, 
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
 	h6,
 	a,
 	.mod-alpha h2,
@@ -137,8 +137,8 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	}
 
 	/* Dropdown Child */
-	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, 
-	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -155,8 +155,8 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.navbar-default .navbar-toggle:focus .icon-bar {
 	    background-color: $palette-primary_4;
 	}
-	.navbar-default .navbar-nav > .active > a, 
-	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
 	.navbar-default .navbar-nav > .active > a:focus,
 	#secondary-menu .current_page_item a,
 	#tertiary-menu .current_page_item a,
@@ -216,8 +216,8 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.site-footer a  {
 		color: $palette-primary_5;
 	}
-	.navbar-default .navbar-nav > .open > a, 
-	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
 	.navbar-default .navbar-nav > .open > a:focus,
 	.navbar-default .navbar-nav > .current-menu-parent > a,
 	.mod-divider a,
@@ -246,14 +246,17 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.woocommerce table.shop_table,
 	.shop_table td,
 	.shop_table thead tr th,
-	.shop_table tbody th, 
-	.shop_table tfoot td, 
+	.shop_table tbody th,
+	.shop_table tfoot td,
 	.shop_table tfoot th  {
 		border: 1px solid $palette-primary_5;
 	}
 	.mod-delta-2 {
 		background: $rgba_5;
 		color: $text-contrast-palette-primary_5;
+	}
+	#boldgrid-sticky-push, #boldgrid-sticky-filler {
+		background-color: $palette-primary_5
 	}
 
 	/*-----------------------------------------------
@@ -283,19 +286,19 @@ $rgba_5 : rgba($palette-primary_5, 1);
 		background-color: #dad8da;
 	    color: #515151;
 	}
-
 }
-	.palette-primary.home .entry-footer a,
-	.palette-primary.home .entry-footer a:hover {
-		background: $palette-primary_4;
-		color: $text-contrast-palette-primary_4;
-	}
-	.palette-primary.page-template-default .entry-footer a,
-	.palette-primary.page-template-default .entry-footer a:hover,
-	.palette-primary.mce-content-body {
-		background: $palette-primary_5;
-		color: $text-contrast-palette-primary_5;
-	}
-	.palette-primary.home.mce-content-body {
-		background: none;
-	}
+
+.palette-primary.home .entry-footer a,
+.palette-primary.home .entry-footer a:hover {
+	background: $palette-primary_4;
+	color: $text-contrast-palette-primary_4;
+}
+.palette-primary.page-template-default .entry-footer a,
+.palette-primary.page-template-default .entry-footer a:hover,
+.palette-primary.mce-content-body {
+	background: $palette-primary_5;
+	color: $text-contrast-palette-primary_5;
+}
+.palette-primary.home.mce-content-body {
+	background: none;
+}
