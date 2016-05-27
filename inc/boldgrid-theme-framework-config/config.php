@@ -1,20 +1,24 @@
 <?php
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
-	/**
-	 * General Configs
-	 */
+
 	// Text domain.
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-haven';
+
 	// Enable Sticky Footer.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
+
 	// Enable typography controls.
 	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
+
 	// Enable attribution links.
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
+
 	// Enable template wrapper.
 	$boldgrid_framework_configs['boldgrid-parent-theme'] = true;
+
 	// Specify the parent theme's name.
 	$boldgrid_framework_configs['parent-theme-name'] = 'prime';
+
 	// Select the footer template to use.
 	$boldgrid_framework_configs['template']['footer'] = '1';
 
