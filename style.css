@@ -341,7 +341,7 @@ select.form-control {
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-page_home .entry-title {
+.page-template-home .entry-title {
 	display: none;
 }
 .entry-title,
@@ -443,6 +443,7 @@ hr {
 	margin-top: 10px;
 }
 .call-to-action {
+	text-align: center;
 	margin-bottom: 75px;
 }
 .boldgrid-widget {
