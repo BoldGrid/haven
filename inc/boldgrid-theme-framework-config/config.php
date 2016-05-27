@@ -17,15 +17,16 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['parent-theme-name'] = 'prime';
 	// Select the footer template to use.
 	$boldgrid_framework_configs['template']['footer'] = '1';
+
 	// Select the header template to use.
 	$boldgrid_framework_configs['template']['header'] = 'generic';
+
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
-		'6' => array( '[action]boldgrid_site_identity' ),
-		'7' => array( '[menu]tertiary' ),
-		'8' => array( '[widget]boldgrid-widget-1', '[menu]secondary', '[action]boldgrid_primary_navigation' ),
-		'9' => array( '[menu]social' ),
-		'10' => array( '[widget]boldgrid-widget-2' ),
+		'1' => array( '[menu]secondary', '[widget]boldgrid-widget-1' ),
+		'5' => array( '[menu]social' ),
+		'8' => array( '[action]boldgrid_primary_navigation' ),
+		'9' => array( '[action]boldgrid_site_identity', '[widget]boldgrid-widget-2' ),
 	);
 
 	/**
