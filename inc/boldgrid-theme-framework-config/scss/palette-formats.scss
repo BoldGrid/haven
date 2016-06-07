@@ -102,8 +102,8 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.mod-icon-circle i {
 		border: 2px solid $palette-primary_3;
 	}
-	.mod-blockquote,
-	blockquote {
+	blockquote,
+	.mod-blockquote {
 		border-left: 7px solid $palette-primary_3;
 	}
 	.text-widget {
