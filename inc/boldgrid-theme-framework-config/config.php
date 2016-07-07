@@ -151,12 +151,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 HTML;
 
 	// Widget 2.
-	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-2'][] = array (
+	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-2'][] = array(
 		'title' => 'Call To Action',
 		'text' => $widget_markup['call-to-action'],
 		'type' => 'visual',
 		'filter' => 1,
-		'label' => 'black-studio-tinymce'
+		'label' => 'black-studio-tinymce',
 	);
 
 	// Name Widget Areas.
