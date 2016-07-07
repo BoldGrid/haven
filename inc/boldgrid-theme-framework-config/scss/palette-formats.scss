@@ -16,7 +16,7 @@ $rgba_5 : rgba($palette-primary_5, 1);
 		background: $palette-primary_1;
 	}
 	.widget-area {
-	    border: 1px solid $text-contrast-palette-primary_1;
+		border: 1px solid $text-contrast-palette-primary_1;
 	}
 
 	/*-----------------------------------------------
@@ -26,7 +26,7 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.link-secondary,
 	.link-secondary:hover,
 	.link-secondary:focus {
-	    color: $palette-primary_2;
+		color: $palette-primary_2;
 	}
 	.button-secondary,
 	.button-primary:hover,
@@ -49,7 +49,7 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	@media (min-width: 768px) {
 		/* Dropdown Child Default */
 		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-	    	color: $text-contrast-palette-primary_2;
+			color: $text-contrast-palette-primary_2;
 		}
 	}
 
@@ -93,7 +93,7 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	}
 	.title-main {
 		border-bottom: 1px solid $palette-primary_3;
-	    border-top: 1px solid $palette-primary_3;
+		border-top: 1px solid $palette-primary_3;
 		color: $palette-primary_3;
 	}
 	hr {
@@ -146,14 +146,14 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.mod-gamma h2,
 	.mod-beta h2,
 	.mod-gamma {
-	    background: $palette-primary_4;
+		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
 	&.home .entry-footer,
 	.navbar-default .navbar-toggle .icon-bar,
 	.navbar-default .navbar-toggle:hover .icon-bar,
 	.navbar-default .navbar-toggle:focus .icon-bar {
-	    background-color: $palette-primary_4;
+		background-color: $palette-primary_4;
 	}
 	.navbar-default .navbar-nav > .active > a,
 	.navbar-default .navbar-nav > .active > a:hover,
@@ -226,7 +226,7 @@ $rgba_5 : rgba($palette-primary_5, 1);
 		color: $text-contrast-palette-primary_5;
 	}
 	.navbar-default .navbar-toggle {
-	    border-color: $palette-primary_5;
+		border-color: $palette-primary_5;
 	}
 	.home input.form-control,
 	.home textarea.form-control,
@@ -279,12 +279,12 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.woocommerce button.button,
 	.woocommerce input.button,
 	.woocommerce p.buttons a.button {
-	    background-color: #a46497;
-	    color: #fff;
+		background-color: #a46497;
+		color: #fff;
 	}
 	.woocommerce p.buttons a.button:hover {
 		background-color: #dad8da;
-	    color: #515151;
+		color: #515151;
 	}
 }
 
