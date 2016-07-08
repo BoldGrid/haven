@@ -30,7 +30,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 # GridBLocks
 	## Positioning
 # Modules
-	## Universal
 	## Global
 	## Alpha
 	## Beta
@@ -443,48 +442,6 @@ hr {
 /*------------------------------------------------------------------------
 # Modules
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Universal
------------------------------------------------*/
-.mod-reset {
-	margin: 0 !important;
-	padding: 0 !important;
-}
-.mod-space,
-.mod-space-2x,
-.mod-space-3x,
-.mod-space-4x,
-.mod-space-5x {
-	background: none;
-}
-.mod-space {
-	height: 15px;
-}
-.mod-space-2x {
-	height: 30px;
-}
-.mod-space-3x {
-	height: 45px;
-}
-.mod-space-4x {
-	height: 60px;
-}
-.mod-space-5x {
-	height: 75px;
-}
-
-/* Images */
-.mod-img,
-.mod-img-circle,
-.image-gallery img,
-.video-gallery img,
-.slideshow-gallery img {
-	margin-bottom: 15px;
-}
-.mod-img-circle img {
-	border-radius: 50%;
-}
 
 /*-----------------------------------------------
 ## Global
