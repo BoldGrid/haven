@@ -1,14 +1,13 @@
 /*
 Theme Name: Haven
 Author: The BoldGrid Team
-Theme URI: http://www.boldgrid.com/haven
-Author URI: http://www.boldgrid.com/the-team
+Theme URI: https://www.boldgrid.com/haven
+Author URI: https://www.boldgrid.com/the-team
 Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
-Version: 1.10
+Version: 1.12
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-haven
-Template: prime
 Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-43
 */
 
@@ -30,7 +29,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Social Menus
 # GridBLocks
 	## Positioning
-	## Alternates
 # Modules
 	## Universal
 	## Global
@@ -51,13 +49,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Background
 -----------------------------------------------*/
-body,
-.custom-background {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+
+/*-----------------------------------------------
+## Positioning
+-----------------------------------------------*/
 .home .site-content {
 	clear: both;
 	padding-bottom: 0;
@@ -71,10 +66,9 @@ body,
 	padding-top: 50px;
 	padding-bottom: 75px;
 }
-
-/*-----------------------------------------------
-## Positioning
------------------------------------------------*/
+.entry-content > .container-fluid {
+	padding: 100px 0;
+}
 h1,
 h2,
 h3,
@@ -86,230 +80,99 @@ h6 {
 p {
 	margin-bottom: 15px;
 }
-.hentry {
-	margin: 0;
-}
-/*-----
-------------------------------------------
+
+/*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
-body {
-	font-weight: 300;
-}
-h2 {
-	font-weight: 400;
-}
-h3 {
-	font-weight: 400;
-}
-a {
-	text-decoration: none;
-}
-.entry-title,
-.page-title {
-	text-align: center;
-}
 .title-main {
-	font-weight: 700;
-	text-align: center;
+	font-weight: bold;
 }
-.button-primary {
-	font-family: "Roboto",sans-serif; /* different font from body text */
-	font-size: 14px; /* different font size from body text */
+#menu-social li a {
+	-webkit-font-smoothing: antialiased;
 }
-.link-primary,
-.link-secondary {
-	text-decoration: underline;
-}
+a,
 .link-primary:hover,
 .link-primary:focus,
 .link-secondary:hover,
-.link-secondary:focus {
-	text-decoration: none;
-}
-.button-primary,
-input[type="submit"] {
-	font-size: 14px;
-	font-weight: 500;
-	text-transform: none;
-}
+.link-secondary:focus,
 .button-primary:hover,
 .button-primary:active,
 input[type="submit"]:hover,
-input[type="submit"]:focus {
-	text-decoration: none;
-}
+input[type="submit"]:focus,
 .button-secondary,
-#commentsubmit,
-.comment-reply-link.button-primary {
-	font-size: 14px; /* different font size from body text */
-	font-weight: 500;
-	text-transform: none;
-	text-decoration: none;
-}
 .button-secondary:hover,
 .button-secondary:active,
+#commentsubmit,
 #commentsubmit:hover,
 #commentsubmit:active,
+.comment-reply-link.button-primary,
 .comment-reply-link.button-primary:hover,
-.comment-reply-link.button-primary:active {
-	text-decoration: none;
-}
-h1.site-title {
-	font-weight: normal;
-}
-.site-description {
-	font-weight: 300;
-}
-.site-branding {
-	text-align: center;
-}
-.call-to-action h2 {
-	font-weight: 400;
-}
-.call-to-action h3 {
-	font-weight: 300;
-}
-#secondary-menu a,
-#tertiary-menu a,
-#menu-social a {
-	text-transform: uppercase;
-}
-#secondary-menu {
-	text-align: center;
-}
-#tertiary-menu {
-	text-align: left;
-}
+.comment-reply-link.button-primary:active,
 #secondary-menu a[href]:hover,
-#tertiary-menu a[href]:hover {
-	text-decoration: none;
-}
-.menu-social {
-	text-align: center;
-}
-#menu-social li a {
-	text-align: right;
-	-webkit-font-smoothing: antialiased;
-}
+#tertiary-menu a[href]:hover,
 #menu-social li a:hover,
-#menu-social li a:focus {
-	text-decoration: none;
-}
-.site-title,
-.site-description {
-	text-align: center;
-}
-#site-navigation {
-	font-weight: 400;
-	text-transform: uppercase;
-}
-#footer-center-menu a:hover,
-#footer-center-menu .current_page_item a {
-	text-decoration: underline;
-}
-#footer-center-menu a {
-	text-decoration: none;
-}
-
-.navbar-default .navbar-nav,
-.navbar-default .navbar-nav .open .dropdown-menu {
-	text-align: center;
-}
-.gridblock .heading-alt {
-	font-weight: 400;
-}
-.mod-divider p {
-	text-align: center;
-}
-.mod-icon-box {
-	text-align: center;
-}
-.mod-blockquote p {
-	line-height: 28px;
-}
-.mod-alpha {
-	text-align: center;
-}
-.mod-alpha-1 .fa {
-	font-size: 36px;
-}
-.mod-beta {
-	text-align: center;
-}
-.mod-gamma {
-	text-align: center;
-}
-.mod-gamma-2 {
-	font-weight: 500;
-}
-.table > thead > tr > th,
-.table > tbody > tr > th,
-.table > tfoot > tr > th,
-.table > thead > tr > td,
-.table > tbody > tr > td,
-.table > tfoot > tr > td {
-	text-align: center;
-}
-/* # Posts */
-#wp-calendar tr td#today {
-	text-decoration: underline;
-}
-
-/* # Plugins */
-/* ## WooCommerce */
-.woocommerce p.buttons a.button:hover {
-	text-decoration: none;
-}
-.showcoupon,
-.payment_method_paypal label a,
-.woocommerce-message a {
-	text-decoration: underline;
-}
+#menu-social li a:focus,
 .showcoupon:hover,
 .showcoupon:focus,
 .payment_method_paypal label a:hover,
 .payment_method_paypal label a:focus,
 .woocommerce-message a:hover,
-.woocommerce-message a:focus {
+.woocommerce-message a:focus,
+.woocommerce p.buttons a.button:hover,
+.woocommerce p.buttons a.button:focus,
+#footer-center-menu a {
 	text-decoration: none;
 }
-
-/* # Footer */
-.site-footer p,
-.site-info,
-.attribution {
-	text-align: center;
-}
+.link-primary,
+.link-secondary,
+#footer-center-menu a:hover,
+#footer-center-menu .current_page_item a,
+#wp-calendar tr td#today,
+.showcoupon,
+.payment_method_paypal label a,
+.woocommerce-message a,
+.entry-footer a,
 .site-footer a {
 	text-decoration: underline;
 }
+.entry-footer a:hover,
+.entry-footer a:focus,
 .site-footer a:hover,
 .site-footer a:focus {
 	text-decoration: none;
 }
-.entry-footer a {
-	text-decoration: underline;
+.site-branding,
+.site-title,
+.site-description,
+.entry-title,
+.page-title,
+.title-main,
+#secondary-menu,
+.menu-social,
+.mod-divider p,
+.mod-icon-box,
+.mod-alpha,
+.mod-beta,
+.mod-gamma,
+.site-info,
+.attribution {
+	text-align: center;
 }
-.entry-footer a:hover {
-	text-decoration: none;
+#tertiary-menu {
+	text-align: left;
 }
-input.form-control,
-textarea.form-control,
-select.form-control {
-	text-transform: none;
-}
-.form-control {
-	text-transform: uppercase;
+#menu-social li a {
+	text-align: right;
 }
 
-/* # Base Styles */
-/* ## Positioning */
+/* xs */
 .xs-center,
 .mod-img,
 .mod-img-circle,
 .p-button-primary,
-.p-button-secondary {
+.p-button-secondary,
+.navbar-default .navbar-nav,
+.navbar-default .navbar-nav .open .dropdown-menu {
 	text-align: center;
 }
 
@@ -354,10 +217,17 @@ select.form-control {
 	margin: 0;
 	padding: 20px 0;
 }
+.hentry {
+	margin: 0;
+}
 
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -443,7 +313,6 @@ hr {
 	margin-top: 10px;
 }
 .call-to-action {
-	text-align: center;
 	margin-bottom: 75px;
 }
 .boldgrid-widget {
@@ -457,7 +326,6 @@ hr {
 /*-----------------------------------------------
 ## Main Menu
 -----------------------------------------------*/
-/* Nav Reset */
 .navbar {
 	background-color: none;
 	border: none;
@@ -571,13 +439,6 @@ hr {
 .gridblock p {
 	margin: 10px 0;
 }
-.entry-content > .container-fluid {
-	padding: 100px 0;
-}
-
-/*-----------------------------------------------
-## Alternates
------------------------------------------------*/
 
 /*------------------------------------------------------------------------
 # Modules
@@ -628,7 +489,6 @@ hr {
 /*-----------------------------------------------
 ## Global
 -----------------------------------------------*/
-/* Divider */
 .mod-divider {
 	margin: 4em 0 0;
 }
@@ -652,12 +512,12 @@ hr {
 	top: -75px;
 	width: 125px;
 }
-
-/* Blockquote */
+blockquote,
 .mod-blockquote {
 	padding-bottom: 0;
 	padding-top: 0;
 }
+blockquote p,
 .mod-blockquote p {
 	padding-left: 15px;
 }
@@ -870,7 +730,7 @@ body.mce-content-body {
 	margin-bottom: 0;
 }
 
-/** Sticky Footer **/
+/* Sticky Footer */
 html, body, .site, .site-content {
 	height: 100%;
 }
