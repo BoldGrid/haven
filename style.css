@@ -15,7 +15,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 >>> TABLE OF CONTENTS:
 --------------------------------------------------------------------------
 # Base Styles
-	## Background
 	## Positioning
 	## Typography
 	## Titles
@@ -27,8 +26,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Main Menu
 	## Other Menus
 	## Social Menus
-# GridBLocks
-	## Positioning
 # Modules
 	## Global
 	## Alpha
@@ -44,10 +41,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*------------------------------------------------------------------------
 # Base Styles
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Background
------------------------------------------------*/
 
 /*-----------------------------------------------
 ## Positioning
@@ -329,7 +322,6 @@ hr {
 	background-color: none;
 	border: none;
 	min-height: 0;
-	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -374,14 +366,9 @@ hr {
 #menu-social a {
 	padding: 0 5px;
 }
-#secondary-menu {
-	background: none;
-}
+#secondary-menu,
 #tertiary-menu {
 	background: none;
-}
-.boldgrid-framework-menu li::after {
-	content: none;
 }
 .footer-center-items li::after, .boldgrid-framework-menu li::after {
 	content: "";
@@ -417,26 +404,6 @@ hr {
 	.menu-social {
 		padding-right: 15px;
 	}
-}
-
-/*------------------------------------------------------------------------
-# GridBlocks
-------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Positioning
------------------------------------------------*/
-.gridblock h1,
-.gridblock h2,
-.gridblock h3,
-.gridblock h4,
-.gridblock h5,
-.gridblock h6,
-.gridblock ol,
-.gridblock ul,
-.gridblock li,
-.gridblock p {
-	margin: 10px 0;
 }
 
 /*------------------------------------------------------------------------
