@@ -644,13 +644,3 @@ body.mce-content-body {
 .disabled-footer .content-area {
 	margin-bottom: 0;
 }
-
-/* Sticky Footer */
-html, body, .site, .site-content {
-	height: 100%;
-}
-#boldgrid-sticky-wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-}
