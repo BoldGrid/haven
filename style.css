@@ -79,9 +79,6 @@ p {
 .title-main {
 	font-weight: bold;
 }
-#menu-social li a {
-	-webkit-font-smoothing: antialiased;
-}
 a,
 .link-primary:hover,
 .link-primary:focus,
@@ -153,9 +150,7 @@ input[type="submit"]:focus,
 #tertiary-menu {
 	text-align: left;
 }
-#menu-social li a {
-	text-align: right;
-}
+
 
 /* xs */
 .xs-center,
@@ -174,9 +169,7 @@ input[type="submit"]:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu {
 		text-align: left;
 	}
-	.menu-social {
-		text-align: right;
-	}
+
 }
 
 /* md */
@@ -355,7 +348,7 @@ hr {
 -----------------------------------------------*/
 #secondary-menu a,
 #tertiary-menu a,
-#menu-social a {
+.menu-social a {
 	padding: 0 5px;
 }
 #secondary-menu,
@@ -364,38 +357,6 @@ hr {
 }
 .footer-center-items li::after, .boldgrid-framework-menu li::after {
 	content: "";
-}
-
-/*-----------------------------------------------
-## Social Menus
------------------------------------------------*/
-.menu-social {
-	padding: 0;
-}
-.menu-social ul {
-	padding-left: 0;
-}
-.menu-social li {
-	display: inline;
-	list-style: none;
-	padding-right: 10px;
-}
-#menu-social ul {
-	padding-left: 0px;
-}
-#menu-social ul li {
-	position: relative;
-	display:  inline-block;
-}
-#menu-social li a {
-	display: inline-block;
-}
-
-/* sm */
-@media (min-width: 768px) {
-	.menu-social {
-		padding-right: 15px;
-	}
 }
 
 /*------------------------------------------------------------------------
