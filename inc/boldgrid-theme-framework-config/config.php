@@ -31,9 +31,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
-		'1' => array( '[menu]secondary', '[widget]boldgrid-widget-1' ),
-		'5' => array( '[menu]social' ),
-		'8' => array( '[action]boldgrid_primary_navigation' ),
+		'1' => array( '[menu]secondary', '[widget]boldgrid-widget-1', '[menu]social' ),
+		'5' => array( '[action]boldgrid_primary_navigation' ),
+		'8' => array( '[menu]tertiary' ),
 		'9' => array( '[action]boldgrid_site_identity', '[widget]boldgrid-widget-2' ),
 	);
 
