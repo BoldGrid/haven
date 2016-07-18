@@ -58,7 +58,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-top: 50px;
 	padding-bottom: 75px;
 }
-.entry-content > .container-fluid {
+.page-template-page_home .entry-content .bgtfw > .container-fluid {
 	padding: 100px 0;
 }
 h1,
