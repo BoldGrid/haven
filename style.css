@@ -358,7 +358,12 @@ hr {
 .footer-center-items li::after, .boldgrid-framework-menu li::after {
 	content: "";
 }
-
+/* sm */
+@media (min-width: 768px) {
+	.social-menu {
+		float: right;
+	}
+}
 /*------------------------------------------------------------------------
 # Modules
 ------------------------------------------------------------------------*/
