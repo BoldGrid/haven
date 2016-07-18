@@ -124,6 +124,8 @@ input[type="submit"]:focus,
 .site-footer a {
 	text-decoration: underline;
 }
+.entry-title a:hover,
+.entry-title a:focus,
 .entry-footer a:hover,
 .entry-footer a:focus,
 .site-footer a:hover,

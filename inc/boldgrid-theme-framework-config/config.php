@@ -25,6 +25,10 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Select the header template to use.
 	$boldgrid_framework_configs['template']['header'] = 'generic';
 
+	// Page content sets it's own containers in this theme.
+	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-content'] = '';
+
+
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
 		'1' => array( '[menu]secondary', '[widget]boldgrid-widget-1' ),
