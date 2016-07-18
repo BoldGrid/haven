@@ -130,6 +130,7 @@ input[type="submit"]:focus,
 .site-footer a:focus {
 	text-decoration: none;
 }
+.call-to-action,
 .site-branding,
 .site-title,
 .site-description,
