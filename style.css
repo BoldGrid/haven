@@ -528,7 +528,15 @@ input#ninja_forms_field_5 {
 body.mce-content-body {
 	background: none;
 }
-
+/* 404 Page */
+/* 404 Page */
+.error404 .list-group-item {
+	background: transparent;
+	border: none;
+}
+.error404 .site-content {
+	padding:0;
+}
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
@@ -614,4 +622,50 @@ body.mce-content-body {
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
+}
+
+.gridblock-section-test {
+	background: orange;
+}
+/* set the default gridblock styles */
+.gridblock {
+	overflow: hidden;
+	width:100%;
+	margin:0px;
+}
+.gridblock > .container-fluid > .row,
+.gridblock > .container > .row {
+	position: relative;
+	padding: 10em ;
+	background: orange;
+	color: #fff;
+	text-align: center;
+}
+/** Common gridblock styles **/
+.gridblock::before,
+.gridblock::after {
+	position: absolute;
+	content: '';
+	pointer-events: none;
+}
+
+/* Triangles */
+.gridblock-section-triangle::before,
+.gridblock-section-triangle::after {
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(45deg);
+}
+
+.gridblock-section-triangle::before {
+	top: -50px;
+	background: teal;
+}
+
+.gridblock-section-triangle::after {
+	bottom: -50px;
+	z-index: 10;
+	background: inherit;
 }
