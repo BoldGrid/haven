@@ -164,7 +164,7 @@ HTML;
 	);
 
 	// Menu Locations.
-	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Above Social Media';
+	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Above Header';
 	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Above Site Title';
 	$boldgrid_framework_configs['menu']['locations']['social'] = 'Upper Right';
 
