@@ -281,7 +281,7 @@ hr {
 	padding-top: 15px;
 }
 .home .site-header {
-	height: 850px;
+	min-height: 850px;
 }
 
 /* Call to Action */
