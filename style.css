@@ -530,13 +530,20 @@ body.mce-content-body {
 	background: none;
 }
 /* 404 Page */
-/* 404 Page */
 .error404 .list-group-item {
 	background: transparent;
 	border: none;
 }
 .error404 .site-content {
 	padding:0;
+}
+/* Search Page */
+.search .jumbotron {
+	text-align: center;
+	background: none;
+}
+.search .site-content {
+	padding: 0;
 }
 /*------------------------------------------------------------------------
 # Posts
