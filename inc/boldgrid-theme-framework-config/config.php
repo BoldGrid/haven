@@ -97,10 +97,16 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Override Options per Subcategory.
 	switch ( $boldgrid_framework_configs['inspiration']['subcategory_key']  ) {
+		case 'Design':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][1]['default'] = true;
+			break;
+		case 'Fitness':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][3]['default'] = true;
+			break;
 		case 'Property Management':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][3]['default'] = true;
 			break;
-		case 'Marketing':
+		case 'Restaurant':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][1]['default'] = true;
 			break;
 
