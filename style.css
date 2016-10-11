@@ -45,7 +45,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.home .site-content {
+.page-template-page_home .site-content {
 	clear: both;
 	padding-bottom: 0;
 	padding-top: 0;
@@ -281,7 +281,7 @@ hr {
 .site-header {
 	padding-top: 15px;
 }
-.home .site-header {
+.page-template-page_home .site-header {
 	min-height: 850px;
 }
 
