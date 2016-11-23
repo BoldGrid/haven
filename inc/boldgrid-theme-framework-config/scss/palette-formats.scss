@@ -33,7 +33,9 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.button-primary:active,
 	input[type="submit"],
 	#commentsubmit,
-	.comment-reply-link.button-primary {
+	.comment-reply-link.button-primary,
+	.pager li > a:hover,
+	.pager li > a:focus {
 		background: $palette-primary_2;
 		border: 1px solid $palette-primary_3;
 		color: $text-contrast-palette-primary_2;
@@ -187,7 +189,8 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	#commentsubmit:focus,
 	.comment-reply-link.button-primary:hover,
 	.comment-reply-link.button-primary:active,
-	.form-submit .submit {
+	.form-submit .submit,
+	.pager li > a {
 		background: $palette-primary_5;
 		border: 1px solid $palette-primary_3;
 		color: $text-contrast-palette-primary_5;
