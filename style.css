@@ -209,6 +209,9 @@ input[type="submit"]:focus,
 .hentry {
 	margin: 0;
 }
+.hentry:first-child ~ .hentry {
+	margin-top: 50px;
+}
 
 /*-----------------------------------------------
 ## Buttons
