@@ -573,6 +573,12 @@ body.mce-content-body {
 	float: left;
 	padding-right: 15px;
 }
+.panel-default > .panel-heading {
+	border: none;
+}
+.panel-footer {
+	border-top: 1px solid transparent;
+}
 
 /* Buttons */
 .form-submit .submit {

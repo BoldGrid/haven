@@ -121,6 +121,9 @@ $rgba_5 : rgba($palette-primary_5, 1);
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
+	.panel-default {
+		border-color: $palette-primary_3;
+	}
 
 	/*-----------------------------------------------
 	## 4
@@ -176,7 +179,10 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.navbar-default .navbar-toggle:focus,
 	.mod-icon-box,
 	.disabled-footer .site-footer,
-	.widget {
+	.widget,
+	.panel-default > .panel-heading,
+	.panel-body,
+	.panel-footer {
 		background: $palette-primary_5;
 		color: $text-contrast-palette-primary_5;
 	}
