@@ -314,8 +314,6 @@ hr {
 	background-color: none;
 	border: none;
 	min-height: 0;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 	border-radius: 0;
 }
 .navbar-default {
@@ -651,7 +649,6 @@ body.mce-content-body {
 	left: 50%;
 	width: 100px;
 	height: 100px;
-	-webkit-transform: translateX(-50%) rotate(45deg);
 	transform: translateX(-50%) rotate(45deg);
 }
 
