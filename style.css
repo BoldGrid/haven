@@ -427,21 +427,11 @@ blockquote p,
 /* Img Radius */
 .mod-alpha-2 img {
 	margin-bottom: 15px;
-	/* Border Radius */
-	-webkit-border-top-right-radius: 30px;
-	-webkit-border-bottom-left-radius: 30px;
-	-moz-border-radius-topright: 30px;
-	-moz-border-radius-bottomleft: 30px;
 	border-top-right-radius: 30px;
 	border-bottom-left-radius: 30px;
 }
 .mod-alpha-3 img {
 	margin-bottom: 15px;
-	/* Border Radius */
-	-webkit-border-top-left-radius: 30px;
-	-webkit-border-bottom-right-radius: 30px;
-	-moz-border-radius-topleft: 30px;
-	-moz-border-radius-bottomright: 30px;
 	border-top-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 }
@@ -452,11 +442,6 @@ blockquote p,
 .mod-beta-1 {
 	margin: 125px 0 75px;
 	padding: 15px;
-	/* Border Radius */
-	-webkit-border-top-right-radius: 30px;
-	-webkit-border-bottom-left-radius: 30px;
-	-moz-border-radius-topright: 30px;
-	-moz-border-radius-bottomleft: 30px;
 	border-top-right-radius: 30px;
 	border-bottom-left-radius: 30px;
 }
@@ -474,17 +459,11 @@ blockquote p,
 	margin: 10px 0;
 }
 .mod-gamma-1 img {
-	/* Border Radius */
-	-webkit-border-bottom-left-radius: 30px;
-	-moz-border-radius-bottomleft: 30px;
 	border-bottom-left-radius: 30px;
 }
 .mod-gamma-2 {
 	margin: 10px 0;
 	padding: 20px;
-	/* Border Radius */
-	-webkit-border-top-right-radius: 30px;
-	-moz-border-radius-topright: 30px;
 	border-top-right-radius: 30px;
 }
 
