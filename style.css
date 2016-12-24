@@ -47,8 +47,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 -----------------------------------------------*/
 .page-template-page_home .site-content {
 	clear: both;
-	padding-bottom: 0;
 	padding-top: 0;
+	padding-bottom: 0;
 }
 .archive .site-content,
 .single .site-content {
@@ -173,7 +173,6 @@ input[type="submit"]:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu {
 		text-align: left;
 	}
-
 }
 
 /* md */
@@ -199,8 +198,8 @@ input[type="submit"]:focus,
 .entry-title,
 .page-title {
 	margin-top: 0;
-	padding-bottom: 25px;
 	padding-top: 25px;
+	padding-bottom: 25px;
 }
 .title-main {
 	margin: 0;
@@ -218,9 +217,9 @@ input[type="submit"]:focus,
 -----------------------------------------------*/
 .button-primary,
 input[type="submit"] {
-	border-radius: 0;
 	display: inline-block;
 	padding: 8px 35px;
+	border-radius: 0;
 }
 .button-secondary,
 #commentsubmit,
@@ -265,8 +264,8 @@ input[type="submit"] {
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	border: 0;
 	height: 1px;
+	border: 0;
 }
 
 /*------------------------------------------------------------------------
@@ -293,8 +292,8 @@ hr {
 	margin-bottom: 0;
 }
 .call-to-action h3 {
-	margin-bottom: 30px;
 	margin-top: 10px;
+	margin-bottom: 30px;
 }
 .call-to-action {
 	margin-bottom: 75px;
@@ -311,14 +310,14 @@ hr {
 ## Main Menu
 -----------------------------------------------*/
 .navbar {
-	background-color: none;
-	border: none;
 	min-height: 0;
+	border: none;
 	border-radius: 0;
+	background-color: none;
 }
 .navbar-default {
-	background: none;
 	margin-bottom: 0;
+	background: none;
 }
 .navbar-default .navbar-nav {
 	margin-left: -15px;
@@ -360,7 +359,8 @@ hr {
 #tertiary-menu {
 	background: none;
 }
-.footer-center-items li::after, .boldgrid-framework-menu li::after {
+.footer-center-items li::after,
+.boldgrid-framework-menu li::after {
 	content: "";
 }
 /* sm */
@@ -384,26 +384,26 @@ hr {
 	margin-top: -45px;
 }
 .mod-icon-circle i {
-	border-radius: 50%;
 	padding: 15px;
+	border-radius: 50%;
 }
 .mod-icon-circle .fa-lightbulb-o {
 	padding: 15px 20px;
 }
 .mod-icon-box {
-	border-radius: 100px;
-	height: 125px;
-	margin: 0 auto -60px;
-	overflow: hidden;
-	padding: 15px 0 0 15px;
 	position: relative;
 	top: -75px;
+	overflow: hidden;
+	margin: 0 auto -60px;
+	padding: 15px 0 0 15px;
 	width: 125px;
+	height: 125px;
+	border-radius: 100px;
 }
 blockquote,
 .mod-blockquote {
-	padding-bottom: 0;
 	padding-top: 0;
+	padding-bottom: 0;
 }
 blockquote p,
 .mod-blockquote p {
@@ -414,9 +414,9 @@ blockquote p,
 ## Alpha
 -----------------------------------------------*/
 .mod-alpha hr {
-	border: 0;
-	height: 5px;
 	width: 50%;
+	height: 5px;
+	border: 0;
 }
 .mod-alpha h2 {
 	margin: 0;
@@ -472,16 +472,16 @@ blockquote p,
 #ninja_forms_field_1_div_wrap,
 #ninja_forms_field_2_div_wrap,
 #ninja_forms_field_3_div_wrap {
-	width: 50%;
 	float: left;
 	padding: 5px 15px;
+	width: 50%;
 }
 #ninja_forms_field_39_div_wrap,
 #ninja_forms_field_4_div_wrap,
 .home .submit-wrap {
-	width: 50%;
 	float: right;
 	padding: 5px 15px;
+	width: 50%;
 }
 .submit-wrap {
 	float: none;
@@ -511,16 +511,16 @@ body.mce-content-body {
 }
 /* 404 Page */
 .error404 .list-group-item {
-	background: transparent;
 	border: none;
+	background: transparent;
 }
 .error404 .site-content {
-	padding:0;
+	padding: 0;
 }
 /* Search Page */
 .search .jumbotron {
-	text-align: center;
 	background: none;
+	text-align: center;
 }
 .search .site-content {
 	padding: 0;
@@ -531,15 +531,15 @@ body.mce-content-body {
 .widget-area {
 	margin-top: 25px;
 	padding: 25px;
-	list-style:none;
+	list-style: none;
 }
 .widget {
 	clear: both;
 }
 .page-header {
-	border-bottom: none;
 	margin: 40px 0 0;
 	padding-bottom: 9px;
+	border-bottom: none;
 }
 #wp-calendar tr {
 	background: none;
@@ -611,8 +611,8 @@ body.mce-content-body {
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
-	height: auto;
 	padding: 15px 0;
+	height: auto;
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
@@ -624,8 +624,8 @@ body.mce-content-body {
 /* set the default gridblock styles */
 .gridblock {
 	overflow: hidden;
-	width:100%;
-	margin:0px;
+	margin: 0;
+	width: 100%;
 }
 .gridblock > .container-fluid > .row,
 .gridblock > .container > .row {
@@ -639,7 +639,7 @@ body.mce-content-body {
 .gridblock::before,
 .gridblock::after {
 	position: absolute;
-	content: '';
+	content: "";
 	pointer-events: none;
 }
 
@@ -649,6 +649,7 @@ body.mce-content-body {
 	left: 50%;
 	width: 100px;
 	height: 100px;
+	-webkit-transform: translateX(-50%) rotate(45deg);
 	transform: translateX(-50%) rotate(45deg);
 }
 
