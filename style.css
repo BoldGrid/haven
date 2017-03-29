@@ -217,7 +217,8 @@ input[type="submit"]:focus,
 -----------------------------------------------*/
 .button-primary,
 input[type="submit"],
-.call-to-action .button-primary, {
+.woocommerce .call-to-action .button-primary,
+.woocommerce-page .call-to-action .button-primary {
 	display: inline-block;
 	padding: 8px 35px;
 	border-radius: 0;
