@@ -215,10 +215,10 @@ input[type="submit"]:focus,
 /*-----------------------------------------------
 ## Buttons
 -----------------------------------------------*/
-.button-primary,
-input[type="submit"],
 .woocommerce .call-to-action .button-primary,
-.woocommerce-page .call-to-action .button-primary {
+.woocommerce-page .call-to-action .button-primary,
+.button-primary,
+input[type="submit"] {
 	display: inline-block;
 	padding: 8px 35px;
 	border-radius: 0;
@@ -234,23 +234,33 @@ input[type="submit"],
 }
 
 /* Positioning */
+.woocommerce .call-to-action .p-button-primary,
+.woocommerce-page .call-to-action .p-button-primary,
 .p-button-primary,
 .p-button-secondary {
 	margin: 25px 0;
 }
 
 /* Block vs. Inline */
+.woocommerce .call-to-action .button-primary,
+.woocommerce-page .call-to-action .button-primary,
 .button-primary,
 .button-secondary {
 	display: block;
 	margin-top: 15px;
 }
+.woocommerce .call-to-action .p-button-primary,
+.woocommerce-page .call-to-action .p-button-primary,
 .call-to-action .p-button-primary {
 	margin-top: 0;
 }
 
 /* sm */
 @media (min-width: 500px) {
+	.woocommerce .call-to-action .button-primary,
+	.woocommerce-page .call-to-action .button-primary,
+	.woocommerce .call-to-action .p-button-primary,
+	.woocommerce-page .call-to-action .p-button-primary,
 	.button-primary,
 	.button-secondary,
 	.call-to-action .p-button-primary {
