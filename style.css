@@ -47,16 +47,16 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 -----------------------------------------------*/
 .page-template-page_home .site-content {
 	clear: both;
-	padding-top: 0;
 	padding-bottom: 0;
+	padding-top: 0;	
 }
 .archive .site-content,
 .single .site-content {
 	padding-top: 50px;
 }
 .site-content {
-	padding-top: 50px;
 	padding-bottom: 75px;
+	padding-top: 50px;
 }
 .page-template-page_home .entry-content .bgtfw > .container-fluid {
 	padding: 100px 0;
@@ -105,10 +105,6 @@ input[type="submit"]:focus,
 .showcoupon:focus,
 .payment_method_paypal label a:hover,
 .payment_method_paypal label a:focus,
-.woocommerce-message a:hover,
-.woocommerce-message a:focus,
-.woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus,
 #footer-center-menu a {
 	text-decoration: none;
 }
@@ -119,7 +115,6 @@ input[type="submit"]:focus,
 #wp-calendar tr td#today,
 .showcoupon,
 .payment_method_paypal label a,
-.woocommerce-message a,
 .entry-footer a,
 .site-footer a {
 	text-decoration: underline;
@@ -154,7 +149,6 @@ input[type="submit"]:focus,
 #tertiary-menu {
 	text-align: left;
 }
-
 
 /* xs */
 .xs-center,
@@ -198,8 +192,8 @@ input[type="submit"]:focus,
 .entry-title,
 .page-title {
 	margin-top: 0;
-	padding-top: 25px;
 	padding-bottom: 25px;
+	padding-top: 25px;
 }
 .title-main {
 	margin: 0;
@@ -219,9 +213,9 @@ input[type="submit"]:focus,
 .woocommerce-page .call-to-action .button-primary,
 .button-primary,
 input[type="submit"] {
+	border-radius: 0;
 	display: inline-block;
 	padding: 8px 35px;
-	border-radius: 0;
 }
 .button-secondary,
 #commentsubmit,
@@ -276,8 +270,8 @@ input[type="submit"] {
 ## Et Cetera
 -----------------------------------------------*/
 hr {
+	border: 0;	
 	height: 1px;
-	border: 0;
 }
 
 /*------------------------------------------------------------------------
@@ -304,8 +298,8 @@ hr {
 	margin-bottom: 0;
 }
 .call-to-action h3 {
-	margin-top: 10px;
 	margin-bottom: 30px;
+	margin-top: 10px;
 }
 .call-to-action {
 	margin-bottom: 75px;
@@ -325,10 +319,10 @@ hr {
 ## Main Menu
 -----------------------------------------------*/
 .navbar {
-	min-height: 0;
+	background-color: none;
 	border: none;
 	border-radius: 0;
-	background-color: none;
+	min-height: 0;
 }
 .navbar-default {
 	margin-bottom: 0;
@@ -406,19 +400,19 @@ hr {
 	padding: 15px 20px;
 }
 .mod-icon-box {
+	border-radius: 100px;
+	height: 125px;
+	margin: 0 auto -60px;
+	overflow: hidden;
+	padding: 15px 0 0 15px;
 	position: relative;
 	top: -75px;
-	overflow: hidden;
-	margin: 0 auto -60px;
-	padding: 15px 0 0 15px;
 	width: 125px;
-	height: 125px;
-	border-radius: 100px;
 }
 blockquote,
 .mod-blockquote {
-	padding-top: 0;
 	padding-bottom: 0;
+	padding-top: 0;
 }
 blockquote p,
 .mod-blockquote p {
@@ -429,9 +423,9 @@ blockquote p,
 ## Alpha
 -----------------------------------------------*/
 .mod-alpha hr {
-	width: 50%;
-	height: 5px;
 	border: 0;
+	height: 5px;
+	width: 50%;
 }
 .mod-alpha h2 {
 	margin: 0;
@@ -439,24 +433,24 @@ blockquote p,
 
 /* Img Radius */
 .mod-alpha-2 img {
-	margin-bottom: 15px;
-	border-top-right-radius: 30px;
 	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	margin-bottom: 15px;
 }
 .mod-alpha-3 img {
-	margin-bottom: 15px;
-	border-top-left-radius: 30px;
 	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	margin-bottom: 15px;
 }
 
 /*-----------------------------------------------
 ## Beta
 -----------------------------------------------*/
 .mod-beta-1 {
-	margin: 125px 0 75px;
-	padding: 15px;
-	border-top-right-radius: 30px;
 	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	margin: 125px 0 75px;
+	padding: 15px;	
 }
 .mod-beta h2 {
 	margin-top: 10px;
@@ -475,9 +469,11 @@ blockquote p,
 	border-bottom-left-radius: 30px;
 }
 .mod-gamma-2 {
+	background: rgba(255,255,255,.90);
+	border-top-right-radius: 30px;
+	color: #333;
 	margin: 10px 0;
 	padding: 20px;
-	border-top-right-radius: 30px;
 }
 
 /*------------------------------------------------------------------------
@@ -524,14 +520,16 @@ input#ninja_forms_field_5 {
 body.mce-content-body {
 	background: none;
 }
+
 /* 404 Page */
 .error404 .list-group-item {
-	border: none;
 	background: transparent;
+	border: none;
 }
 .error404 .site-content {
 	padding: 0;
 }
+
 /* Search Page */
 .search .jumbotron {
 	background: none;
@@ -540,21 +538,22 @@ body.mce-content-body {
 .search .site-content {
 	padding: 0;
 }
+
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
 .widget-area {
+	list-style: none;
 	margin-top: 25px;
 	padding: 25px;
-	list-style: none;
 }
 .widget {
 	clear: both;
 }
 .page-header {
-	margin: 40px 0 0;
-	padding-bottom: 9px;
 	border-bottom: none;
+	margin: 40px 0 0;
+	padding-bottom: 9px;	
 }
 #wp-calendar tr {
 	background: none;
@@ -584,14 +583,9 @@ body.mce-content-body {
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-.woocommerce .page-title {
+.woocommerce .page-title,
+.woocommerce-page .entry-title {
 	margin: 0;
-}
-.woocommerce p.buttons a.button:hover {
-	background-image: none;
-}
-.woocommerce .product {
-	margin: 2em 0 0;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
@@ -626,55 +620,24 @@ body.mce-content-body {
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
-	padding: 15px 0;
 	height: auto;
+	padding: 15px 0;
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
 }
 
-.gridblock-section-test {
-	background: orange;
-}
 /* set the default gridblock styles */
 .gridblock {
 	overflow: hidden;
 	margin: 0;
 	width: 100%;
 }
-.gridblock > .container-fluid > .row,
-.gridblock > .container > .row {
-	position: relative;
-	padding: 10em ;
-	background: orange;
-	color: #fff;
-	text-align: center;
-}
+
 /** Common gridblock styles **/
 .gridblock::before,
 .gridblock::after {
-	position: absolute;
 	content: "";
-	pointer-events: none;
-}
-
-/* Triangles */
-.gridblock-section-triangle::before,
-.gridblock-section-triangle::after {
-	left: 50%;
-	width: 100px;
-	height: 100px;
-	-webkit-transform: translateX(-50%) rotate(45deg);
-	transform: translateX(-50%) rotate(45deg);
-}
-
-.gridblock-section-triangle::before {
-	top: -50px;
-	background: teal;
-}
-
-.gridblock-section-triangle::after {
-	bottom: -50px;
-	z-index: 10;
-	background: inherit;
+	pointer-events: none;	
+	position: absolute;
 }
