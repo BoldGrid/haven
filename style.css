@@ -310,6 +310,9 @@ hr {
 .call-to-action {
 	margin-bottom: 75px;
 }
+.woocommerce-page .site-header .button-primary {
+	font-size: 18px !important;
+}
 .boldgrid-widget {
 	background: none !important;
 }
