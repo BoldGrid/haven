@@ -48,7 +48,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .page-template-page_home .site-content {
 	clear: both;
 	padding-bottom: 0;
-	padding-top: 0;	
+	padding-top: 0;
 }
 .archive .site-content,
 .single .site-content {
@@ -270,7 +270,7 @@ input[type="submit"] {
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	border: 0;	
+	border: 0;
 	height: 1px;
 }
 
@@ -447,7 +447,7 @@ blockquote p,
 	border-bottom-left-radius: 30px;
 	border-top-right-radius: 30px;
 	margin: 125px 0 75px;
-	padding: 15px;	
+	padding: 15px;
 }
 .mod-beta h2 {
 	margin-top: 10px;
@@ -550,7 +550,7 @@ body.mce-content-body {
 .page-header {
 	border-bottom: none;
 	margin: 40px 0 0;
-	padding-bottom: 9px;	
+	padding-bottom: 9px;
 }
 #wp-calendar tr {
 	background: none;
@@ -635,6 +635,6 @@ body.mce-content-body {
 .gridblock::before,
 .gridblock::after {
 	content: "";
-	pointer-events: none;	
+	pointer-events: none;
 	position: absolute;
 }
