@@ -242,6 +242,7 @@ input[type="submit"] {
 .button-secondary {
 	display: block;
 	margin-top: 15px;
+	font-size: inherit;
 }
 .woocommerce .call-to-action .p-button-primary,
 .woocommerce-page .call-to-action .p-button-primary,
