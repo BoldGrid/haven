@@ -105,7 +105,9 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.widget .nav > li > a:hover,
 	.widget .nav > li > a:focus,
 	#wp-calendar tr td#today,
-	.site-footer .widget {
+	.site-footer .widget,
+	.mark,
+	mark {
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
