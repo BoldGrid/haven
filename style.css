@@ -600,7 +600,7 @@ body.mce-content-body {
 .site-footer {
 	padding: 25px 0;
 }
-.site-info {
+.footer-center-menu {
 	margin-bottom: -10px;
 }
 .footer-center-items {
@@ -609,7 +609,7 @@ body.mce-content-body {
 .footer-center-items li a {
 	padding: 5px;
 }
-.attribution {
+.col-md-12.footer-8 {
 	padding-bottom: 30px;
 }
 .entry-footer {
