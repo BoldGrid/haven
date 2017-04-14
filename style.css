@@ -585,7 +585,7 @@ body.mce-content-body {
 .woocommerce-page .entry-title {
 	margin: 0;
 }
-.woocommerce div.product .woocommerce-tabs .panel {
+.panel {
 	background: none;
 	box-shadow: none;
 }
