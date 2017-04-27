@@ -155,16 +155,15 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	/**
 	 * Widgets
 	 */
-	$widget_markup['call-to-action'] = <<<HTML
+	$widget_markup['call-to-action'] = '
 		<div class="col-sm-12 col-md-12">
 			<div class="call-to-action">
 				<p class="mod-space">&nbsp;</p>
 				<p class="p-button-primary">
-					<a class="button-primary" href="contact-us">CONTACT US TODAY</a>
+					<a class="button-primary" href="' . get_site_url( null, 'contact-us' ) . '">CONTACT US TODAY</a>
 				</p>
 			</div>
-		</div>
-HTML;
+		</div>';
 
 	// Widget 2.
 	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-2'][] = array(
