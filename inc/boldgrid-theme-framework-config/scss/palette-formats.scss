@@ -248,7 +248,13 @@ $rgba_5 : rgba($palette-primary_5, 1);
 		color: $text-contrast-palette-primary_5;
 	}
 	#boldgrid-sticky-push, #boldgrid-sticky-filler {
-		background-color: $palette-primary_5
+		background-color: $palette-primary_5;
+	}
+	#reviews #comments ol.commentlist li .meta {
+		color: $text-contrast-palette-primary_5;
+	}
+	#reviews #comments ol.commentlist li .comment-text {
+		border: 1px solid $text-contrast-palette-primary_5;
 	}
 }
 
