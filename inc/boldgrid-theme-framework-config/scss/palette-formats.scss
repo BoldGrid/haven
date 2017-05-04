@@ -258,6 +258,9 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	}
 }
 
+/*------------------------------------------------------------------------
+# Additional Body Classes
+------------------------------------------------------------------------*/
 .palette-primary.home .entry-footer a,
 .palette-primary.home .entry-footer a:hover {
 	background: $palette-primary_4;
@@ -271,4 +274,10 @@ $rgba_5 : rgba($palette-primary_5, 1);
 }
 .palette-primary.home.mce-content-body {
 	background: none;
+}
+.palette-primary.woocommerce div.product .stock.out-of-stock {
+	color: $palette-primary_3;
+}
+.palette-primary.woocommerce div.product .stock {
+	color: $palette-primary_2;
 }
