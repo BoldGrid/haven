@@ -2,6 +2,7 @@
 # Variables
 ------------------------------------------------------------------------*/
 $rgba_5 : rgba($palette-primary_5, 1);
+$rgba_3 : rgba($palette-primary_3, 0.75);
 
 /*------------------------------------------------------------------------
 # Palettes
@@ -113,6 +114,36 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	}
 	.panel-default {
 		border-color: $palette-primary_3;
+	}
+
+	/* Gallery Captions */
+	.wc-gallery-captions-showon .gallery-caption, 
+	.wc-gallery-captions-onhover .gallery-caption {
+		background: $rgba_3;
+		color: $text-contrast-palette-primary_3;
+	}
+	.wc-gallery-captions-show .gallery-caption,
+	.wc-gallery-captions-onpopup .gallery-caption  {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+	}
+	.wc-gallery .gallery-caption {
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: $text-contrast-palette-primary_3;
+		}
+	}
+	.mfp-title {
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #fff !important;
+		}
 	}
 
 	/*-----------------------------------------------
