@@ -187,7 +187,8 @@ $rgba_3 : rgba($palette-primary_3, 0.75);
 	.navbar-default .navbar-nav > .active > a:focus,
 	#secondary-menu .current_page_item a,
 	#tertiary-menu .current_page_item a,
-	#menu-social-items .current_page_item a {
+	#menu-social-items .current_page_item a,
+	.navbar-default .navbar-nav > .current-menu-parent > a {
 		background: none;
 		color: $palette-primary_4;
 	}
@@ -250,7 +251,6 @@ $rgba_3 : rgba($palette-primary_3, 0.75);
 	.navbar-default .navbar-nav > .open > a,
 	.navbar-default .navbar-nav > .open > a:hover,
 	.navbar-default .navbar-nav > .open > a:focus,
-	.navbar-default .navbar-nav > .current-menu-parent > a,
 	.mod-divider a,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		background: $palette-primary_5;
