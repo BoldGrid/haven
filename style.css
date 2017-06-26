@@ -86,17 +86,8 @@ a,
 .link-secondary:focus,
 .button-primary:hover,
 .button-primary:active,
-input[type="submit"]:hover,
-input[type="submit"]:focus,
-.button-secondary,
 .button-secondary:hover,
 .button-secondary:active,
-#commentsubmit,
-#commentsubmit:hover,
-#commentsubmit:active,
-.comment-reply-link.button-primary,
-.comment-reply-link.button-primary:hover,
-.comment-reply-link.button-primary:active,
 #secondary-menu a[href]:hover,
 #tertiary-menu a[href]:hover,
 #menu-social li a:hover,
@@ -141,13 +132,8 @@ input[type="submit"]:focus,
 .mod-icon-box,
 .mod-alpha,
 .mod-beta,
-.mod-gamma,
-.site-info,
-.attribution {
+.mod-gamma {
 	text-align: center;
-}
-#tertiary-menu {
-	text-align: left;
 }
 
 /* xs */
@@ -212,37 +198,18 @@ input[type="submit"]:focus,
 .woocommerce .call-to-action .button-primary,
 .woocommerce-page .call-to-action .button-primary,
 .button-primary,
-input[type="submit"] {
+.button-secondary {
 	border-radius: 0;
-	display: inline-block;
+	display: block;
+	font-size: inherit;
+	margin-top: 15px;
 	padding: 8px 35px;
-}
-.button-secondary,
-#commentsubmit,
-.comment-reply-link.button-primary {
-	display: inline-block;
-	padding: 8px 35px;
-}
-.form-submit .submit {
-	margin-bottom: 10px;
 }
 
 /* Positioning */
-.woocommerce .call-to-action .p-button-primary,
-.woocommerce-page .call-to-action .p-button-primary,
 .p-button-primary,
 .p-button-secondary {
 	margin: 25px 0;
-}
-
-/* Block vs. Inline */
-.woocommerce .call-to-action .button-primary,
-.woocommerce-page .call-to-action .button-primary,
-.button-primary,
-.button-secondary {
-	display: block;
-	margin-top: 15px;
-	font-size: inherit;
 }
 .woocommerce .call-to-action .p-button-primary,
 .woocommerce-page .call-to-action .p-button-primary,
@@ -321,9 +288,7 @@ select {
 ## Main Menu
 -----------------------------------------------*/
 .navbar {
-	background-color: none;
 	border: none;
-	border-radius: 0;
 	min-height: 0;
 }
 .navbar-default {
@@ -343,9 +308,7 @@ select {
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-	background: none;
-}
+.navbar-default .navbar-nav > .active > a:focus,
 #secondary-menu .current_page_item a,
 #tertiary-menu .current_page_item a {
 	background: none;
@@ -365,10 +328,6 @@ select {
 #tertiary-menu a,
 .menu-social a {
 	padding: 0 5px;
-}
-#secondary-menu,
-#tertiary-menu {
-	background: none;
 }
 .footer-center-items li::after,
 .boldgrid-framework-menu li::after {
@@ -481,44 +440,6 @@ blockquote p,
 /*------------------------------------------------------------------------
 # Pages
 ------------------------------------------------------------------------*/
-/* Forms */
-#ninja_forms_field_1_div_wrap,
-#ninja_forms_field_2_div_wrap,
-#ninja_forms_field_3_div_wrap {
-	float: left;
-	padding: 5px 15px;
-	width: 50%;
-}
-#ninja_forms_field_39_div_wrap,
-#ninja_forms_field_4_div_wrap,
-.home .submit-wrap {
-	float: right;
-	padding: 5px 15px;
-	width: 50%;
-}
-.submit-wrap {
-	float: none;
-}
-textarea#ninja_forms_field_4 {
-	height: 98px;
-}
-input#ninja_forms_field {
-	height: 50px;
-}
-input#ninja_forms_field_5 {
-	float: left;
-}
-.home input.form-control,
-.home textarea.form-control,
-.home select.form-control {
-	background: none;
-}
-.form-control {
-	border-radius: 0;
-}
-.panel-footer {
-	padding: 20px 15px;
-}
 body.mce-content-body {
 	background: none;
 }
@@ -544,11 +465,6 @@ body.mce-content-body {
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
-.widget-area {
-	list-style: none;
-	margin-top: 25px;
-	padding: 25px;
-}
 .widget {
 	clear: both;
 }
@@ -562,20 +478,12 @@ body.mce-content-body {
 }
 
 /* Comments */
-.comment-form-comment label {
-	float: left;
-	padding-right: 15px;
-}
 .panel-default > .panel-heading {
 	border: none;
 }
 .panel-footer {
 	border-top: 1px solid transparent;
-}
-
-/* Buttons */
-.form-submit .submit {
-	margin-bottom: 10px;
+	padding: 20px 15px;
 }
 
 /*------------------------------------------------------------------------
@@ -597,11 +505,6 @@ body.mce-content-body {
 	padding: 15px 30px;
 }
 
-/* Search Form */
-.form-control {
-	display: inline-block;
-}
-
 /*------------------------------------------------------------------------
 # Footer
 ------------------------------------------------------------------------*/
@@ -610,9 +513,6 @@ body.mce-content-body {
 }
 .footer-center-menu {
 	margin-bottom: -10px;
-}
-.footer-center-items {
-	padding-left: 0;
 }
 .footer-center-items li a {
 	padding: 5px;
@@ -631,19 +531,4 @@ body.mce-content-body {
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
-}
-
-/* set the default gridblock styles */
-.gridblock {
-	overflow: hidden;
-	margin: 0;
-	width: 100%;
-}
-
-/** Common gridblock styles **/
-.gridblock::before,
-.gridblock::after {
-	content: "";
-	pointer-events: none;
-	position: absolute;
 }
