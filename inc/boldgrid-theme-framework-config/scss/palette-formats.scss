@@ -58,14 +58,11 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	h4,
 	h5,
 	h6,
-	a,
 	.mod-alpha h2,
 	caption,
 	.dropdown-menu > li > a,
 	.mod-alpha-1 .fa,
 	.link-primary,
-	a:hover,
-	a:focus,
 	.mod-alpha .fa {
 		color: $palette-primary_3;
 	}
@@ -110,6 +107,9 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	/*-----------------------------------------------
 	## 4
 	-----------------------------------------------*/
+	a,
+	a:hover,
+	a:focus,
 	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus,
 	#secondary-menu a[href]:hover,
