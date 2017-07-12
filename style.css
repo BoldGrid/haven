@@ -79,7 +79,12 @@ p {
 .title-main {
 	font-weight: bold;
 }
-a,
+.entry-content a {
+	text-decoration: underline;
+}
+.entry-content a:hover,
+.entry-content a:focus,
+.p-button-primary a,
 .link-primary:hover,
 .link-primary:focus,
 .link-secondary:hover,
