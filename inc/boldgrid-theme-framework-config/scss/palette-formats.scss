@@ -40,10 +40,7 @@ $rgba_5 : rgba($palette-primary_5, 1);
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}
-
-	/* sm */
-	@media (min-width: 768px) {
-		/* Dropdown Child Default */
+	@media only screen and (min-width: 768px) {
 		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 			color: $text-contrast-palette-primary_2;
 		}
@@ -123,8 +120,6 @@ $rgba_5 : rgba($palette-primary_5, 1);
 	.footer-center-items > li > a:focus {
 		color: $palette-primary_4;
 	}
-
-	/* Dropdown Child */
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,

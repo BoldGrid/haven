@@ -141,7 +141,7 @@ p {
 	text-align: center;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .xs-center,
 .mod-img,
 .mod-img-circle,
@@ -152,16 +152,16 @@ p {
 	text-align: center;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.navbar-default .navbar-nav,
 	.navbar-default .navbar-nav .open .dropdown-menu {
 		text-align: left;
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -222,8 +222,8 @@ p {
 	margin-top: 0;
 }
 
-/* sm */
-@media (min-width: 500px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.woocommerce .call-to-action .button-primary,
 	.woocommerce-page .call-to-action .button-primary,
 	.woocommerce .call-to-action .p-button-primary,
@@ -319,8 +319,8 @@ select {
 	background: none;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.navbar-default {
 		float: right;
 	}
@@ -338,13 +338,15 @@ select {
 .boldgrid-framework-menu li::after {
 	content: "";
 }
-/* sm */
-@media (min-width: 768px) {
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.social-menu {
 		float: right;
 		margin-right: 15px;
 	}
 }
+
 /*------------------------------------------------------------------------
 # Modules
 ------------------------------------------------------------------------*/
