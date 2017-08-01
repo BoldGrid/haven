@@ -132,7 +132,6 @@ $rgba_5 : rgba($palette-primary_5, 1);
 		background: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
-	&.page-template-page_home .entry-footer,
 	.navbar-default .navbar-toggle .icon-bar,
 	.navbar-default .navbar-toggle:hover .icon-bar,
 	.navbar-default .navbar-toggle:focus .icon-bar {
@@ -228,13 +227,6 @@ $rgba_5 : rgba($palette-primary_5, 1);
 /*------------------------------------------------------------------------
 # Additional Body Classes
 ------------------------------------------------------------------------*/
-.palette-primary.page-template-page_home .entry-footer a,
-.palette-primary.page-template-page_home .entry-footer a:hover {
-	background: $palette-primary_4;
-	color: $text-contrast-palette-primary_4;
-}
-.palette-primary.page-template-default .entry-footer a,
-.palette-primary.page-template-default .entry-footer a:hover,
 .palette-primary.mce-content-body {
 	background: $palette-primary_5;
 	color: $text-contrast-palette-primary_5;
