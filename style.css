@@ -190,12 +190,6 @@ p {
 	margin: 0;
 	padding: 20px 0;
 }
-.hentry {
-	margin: 0;
-}
-.hentry:first-child ~ .hentry {
-	margin-top: 50px;
-}
 
 /*-----------------------------------------------
 ## Buttons
@@ -477,11 +471,14 @@ body.mce-content-body {
 }
 .page-header {
 	border-bottom: none;
-	margin: 40px 0 0;
+	margin: 0;
 	padding-bottom: 9px;
 }
 #wp-calendar tr {
 	background: none;
+}
+.post {
+	margin: 0 auto 50px;
 }
 
 /* Comments */
