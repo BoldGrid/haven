@@ -6,7 +6,7 @@
 - License: GNU General Public License v2 or later
 - License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-BoldGrid Theme best suited for Marketing, Fitness, Property Management, Consulting, Music, and General sites.
+BoldGrid Theme best suited for Marketing, Fitness, Consulting, Music, and General sites.
 
 ## Information & Changelog
 [BoldGrid Theme Info Page](https://www.boldgrid.com/themes/haven/)
